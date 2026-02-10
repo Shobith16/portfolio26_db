@@ -16,4 +16,4 @@ Thumbs.db
 !package.json
 !tsconfig.json
 src/main/resources/application-secrets.properties
-backend/.env.template
+.env.template
