@@ -9,4 +9,10 @@ import java.util.List;
 @Repository
 public interface SkillRepository extends JpaRepository<Skill, Long> {
     List<Skill> findAllByOrderByOrderAsc();
+
+    List<Skill> findByUserIdOrderByOrderAsc(Long userId);
+
+    List<Skill> findByUserIdAndIsHiddenFalseOrderByOrderAsc(Long userId);
+
+    void deleteByUserId(Long userId);
 }

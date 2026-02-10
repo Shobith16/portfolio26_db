@@ -9,5 +9,12 @@ import java.util.List;
 @Repository
 public interface ProjectRepository extends JpaRepository<Project, Long> {
     List<Project> findByIsHiddenFalseOrderByOrderAsc();
+
     List<Project> findAllByOrderByOrderAsc();
+
+    List<Project> findByUserIdOrderByOrderAsc(Long userId);
+
+    List<Project> findByUserIdAndIsHiddenFalseOrderByOrderAsc(Long userId);
+
+    void deleteByUserId(Long userId);
 }

@@ -1,5 +1,7 @@
 package com.portfolio.backend.exception;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.AccessDeniedException;
@@ -12,10 +14,12 @@ import java.util.Date;
 
 @ControllerAdvice
 public class GlobalExceptionHandler {
+    private static final Logger logger = LoggerFactory.getLogger(GlobalExceptionHandler.class);
 
     @ExceptionHandler(BadCredentialsException.class)
     public ResponseEntity<?> handleBadCredentialsException(BadCredentialsException ex, WebRequest request) {
-        ErrorDetails errorDetails = new ErrorDetails(new Date(), "Invalid username or password", request.getDescription(false));
+        ErrorDetails errorDetails = new ErrorDetails(new Date(), "Invalid username or password",
+                request.getDescription(false));
         return new ResponseEntity<>(errorDetails, HttpStatus.UNAUTHORIZED);
     }
 
@@ -27,7 +31,12 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(Exception.class)
     public ResponseEntity<?> handleGlobalException(Exception ex, WebRequest request) {
-        ErrorDetails errorDetails = new ErrorDetails(new Date(), ex.getMessage(), request.getDescription(false));
+        // Log the actual error for the developer
+        logger.error("Unexpected error: ", ex);
+
+        // Return a generic, safe message to the client
+        String userFriendlyMessage = "An unexpected error occurred. Please try again later.";
+        ErrorDetails errorDetails = new ErrorDetails(new Date(), userFriendlyMessage, request.getDescription(false));
         return new ResponseEntity<>(errorDetails, HttpStatus.INTERNAL_SERVER_ERROR);
     }
 }

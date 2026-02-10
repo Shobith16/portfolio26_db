@@ -1,32 +1,81 @@
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\config\SecurityConfig.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\controller\AuthController.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\repository\ProjectRepository.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\controller\AdminController.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\exception\ErrorDetails.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\security\JwtUtils.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\security\AuthTokenFilter.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\security\AuthEntryPointJwt.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\repository\ContactInfoRepository.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\entity\Experience.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\repository\MessageRepository.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\controller\ProjectController.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\entity\Profile.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\security\UserDetailsServiceImpl.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\entity\Project.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\repository\ProfileRepository.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\service\PortfolioService.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\dto\SignupRequest.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\repository\SkillRepository.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\repository\UserRepository.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\dto\JwtResponse.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\entity\Skill.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\entity\User.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\entity\Message.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\service\ProjectService.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\dto\LoginRequest.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\exception\GlobalExceptionHandler.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\entity\Setting.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\repository\ExperienceRepository.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\repository\SettingRepository.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\entity\ContactInfo.java
-D:\D Drive\PROGRAMS\present\Portfolio\backend\src\main\java\com\portfolio\backend\PortfolioBackendApplication.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\entity\Project.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\PortfolioBackendApplication.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\security\JwtUtils.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\repository\FeedbackReplyRepository.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\repository\SkillRepository.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\security\UserDetailsServiceImpl.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\entity\FeedbackStatus.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\entity\AuditLog.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\repository\UserRepository.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\entity\Conversation.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\entity\FeedbackPriority.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\service\NotificationService.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\repository\NotificationRepository.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\entity\Notification.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\config\WebConfig.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\controller\AdminController.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\exception\GlobalExceptionHandler.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\entity\Skill.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\service\VisitorTrackingService.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\entity\Feedback.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\service\AuthService.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\entity\ProfileView.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\repository\ProfileShareRepository.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\repository\FeedbackRepository.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\repository\SettingRepository.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\entity\PasswordResetToken.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\entity\ProfileShare.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\entity\Setting.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\config\SecurityConfig.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\controller\ProjectController.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\entity\User.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\repository\ExperienceRepository.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\service\EmailService.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\entity\UserStatus.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\dto\FeedbackReplyDTO.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\security\UserDetailsImpl.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\repository\AppConfigRepository.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\repository\MessageRepository.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\entity\Profile.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\repository\ContactInfoRepository.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\controller\ConfigController.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\dto\ConversationDTO.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\entity\AppConfig.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\controller\PublicPortfolioController.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\entity\ChatMessage.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\entity\Experience.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\repository\PasswordResetTokenRepository.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\service\MigrationService.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\repository\ProjectRepository.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\controller\HealthController.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\entity\NotificationType.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\security\AuthTokenFilter.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\service\AnalyticsService.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\repository\ConversationRepository.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\exception\ErrorDetails.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\service\MessagingService.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\service\FeedbackService.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\dto\FeedbackDTO.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\repository\ChatMessageRepository.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\repository\FileMetadataRepository.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\service\PortfolioService.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\dto\ChatMessageDTO.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\repository\AuditLogRepository.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\entity\FeedbackCategory.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\entity\FileMetadata.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\entity\FeedbackReply.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\dto\LoginRequest.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\dto\SuperAdminMetricsDTO.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\repository\ProfileViewRepository.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\security\AuthEntryPointJwt.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\service\AppConfigService.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\dto\SignupRequest.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\service\AuditLogService.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\controller\AuthController.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\dto\NotificationDTO.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\repository\ProfileRepository.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\entity\ContactInfo.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\service\GoogleDriveService.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\entity\Message.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\dto\JwtResponse.java
+D:\Work\Portfolio26\backend\src\main\java\com\portfolio\backend\service\ProjectService.java

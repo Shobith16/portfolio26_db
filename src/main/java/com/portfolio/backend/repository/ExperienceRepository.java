@@ -9,4 +9,8 @@ import java.util.List;
 @Repository
 public interface ExperienceRepository extends JpaRepository<Experience, Long> {
     List<Experience> findAllByOrderByOrderAsc();
+
+    List<Experience> findByUserIdOrderByOrderAsc(Long userId);
+
+    void deleteByUserId(Long userId);
 }

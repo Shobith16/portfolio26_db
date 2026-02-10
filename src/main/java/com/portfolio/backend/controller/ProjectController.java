@@ -11,20 +11,16 @@ import java.util.List;
 
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/admin")
 public class ProjectController {
     @Autowired
     private ProjectService projectService;
 
-    @GetMapping("/public/projects")
-    public List<Project> getPublicProjects() {
-        return projectService.getAllProjects(false);
-    }
-
+    // Authenticated user's projects for admin panel
     @GetMapping("/projects")
-    @PreAuthorize("isAuthenticated()") // Or "hasRole('ADMIN')"
+    @PreAuthorize("isAuthenticated()")
     public List<Project> getAllProjects() {
-        return projectService.getAllProjects(true);
+        return projectService.getAllProjects(true); // include hidden
     }
 
     @GetMapping("/projects/{id}")
